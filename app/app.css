@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn-primary {
+    @apply bg-blue-500 text-white font-bold py-2 px-4 rounded;
+}
+
+.input-field {
+    @apply border rounded p-2 mb-4 w-full;
+}
+
+.page-container {
+    @apply p-4;
+}
+
+.fas {
+    font-family: "Font Awesome 5 Free", "fa-solid-900";
+    font-weight: 900;
+}
+
+.action-bar {
+    background-color: #3b82f6;
+    color: white;
+}
